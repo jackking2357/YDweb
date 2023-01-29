@@ -1,0 +1,271 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "雨点"
+            },
+            "meta": {
+                "auth": false
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "navigationStyle": "custom"
+            },
+            "meta": {
+                "auth": false
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            },
+            "meta": {
+                "auth": false
+            }
+        }
+        ,{
+            "path" : "pages/login/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册"
+            },
+			"meta": {
+			    "auth": false
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/myRobot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/purchase/purchaseRobot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/purchase/purchaseBoost",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/purchase/payment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/withdraw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/updatePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/withdrawSetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/incomeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/myTeam",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/inviteFriend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/authentication",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+			    "auth": false
+			}
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "subPackages": [{
+        "root": "bundle",
+        "pages": [{
+                "path": "pages/user_profile/user_profile",
+                "style": {
+                    "navigationBarTitleText": "个人设置"
+                },
+                "meta": {
+                    "auth": true
+                }
+            }
+        ]
+    }],
+    "tabBar": {
+        "color": "#66635E",
+        "selectedColor": "#FFDFB2",
+        "borderStyle": "black",
+		"backgroundColor": "#1A1816",
+        "list": [{
+                "pagePath": "pages/index/index",
+				"iconPath": "/static/images/tabbar/icon_home.png",
+				"selectedIconPath": "/static/images/tabbar/icon_home_s.png",
+                "text": "任务大厅"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "/static/images/tabbar/icon_user.png",
+                "selectedIconPath": "/static/images/tabbar/icon_user_s.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+        "h5": {
+            "navigationStyle": "custom"
+        },
+		"app-plus": {
+			"titleNView": false,
+			"background": "#0E0B06"
+		}
+    },
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue",
+            "^w-(.*)": "@/components/widgets/$1/$1.vue"
+        }
+    }
+}
